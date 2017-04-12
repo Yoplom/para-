@@ -1,151 +1,268 @@
-<div class="row">
-  <div class="large-12 columns">
-    <h1>Welcome to Foundation for Sites</h1>
-  </div>
-</div> 
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="row">
-  <div class="large-12 columns">
-    <div class="callout">
-      <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-      <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-      <p>Once you've exhausted the fun in this document, you should check out:</p>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-        </div>
-        <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 medium-push-2 columns">
-          <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-        </div>
-        <div class="large-4 medium-4 medium-pull-2 columns">
-          <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-        </div>        
-      </div>
-    </div>
-  </div>
-</div>
+    <head>
 
-<div class="row">
-  <div class="large-8 medium-8 columns">
-    <h5>Here&rsquo;s your basic grid:</h5>
-    <!-- Grid Example -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="site de vente de parapluie">
+        <meta name="keywords" content="Nantoy,parapluie,para+,paraplus,pluie">
+        <meta name="author" content="Nantoy">
+        <link rel="shortcut icon" type="image/jpf" href="parapluie.png">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <title>para +</title>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="primary callout">
-          <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-      <div class="large-6 medium-6 columns">
-        <div class="primary callout">
-          <p>Six columns</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-      <div class="large-4 medium-4 small-4 columns">
-        <div class="primary callout">
-          <p>Four columns</p>
-        </div>
-      </div>
-    </div>
-    
-    <hr />
+        <!-- Custom CSS -->
+        <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+               
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header id="top" class="header">
+            <!-- Navigation -->
+<!--            <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>-->
+            <nav id="sidebar-wrapper">
+                <ul class="menu align-left">
+                    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                    <li>
+                        <a href="#top" onclick=$("#menu-close").click();>ACCUEIL</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" onclick=$("#menu-close").click();>PARAPLUIES</a>
+                    </li>
+                    <li>
+                        <a href="#contact" onclick=$("#menu-close").click();>CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
             
-    <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-12.columns" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <label>Input Label</label>
-          <input type="text" placeholder="large-4.columns" />
-        </div>
-        <div class="large-4 medium-4 columns">
-          <div class="row collapse">
-            <label>Input Label</label>
-            <div class="input-group">
-              <input class="input-group-field" type="text" placeholder="input-group" />
-              <span class="input-group-label">.com</span>
+            <div class="text-center">
+               <img src="../assets/img/parapluie.png" alt="">
+                <h1 class="align-center">PARA+</h1>
+                <h2>Partir et arriver sec</h2>
+                <div class="small-6 small-centered text-center columns">
+                    <a href="#" class="button radius center">Découvrez Messenger</a>
+                </div>
+<!--
+                <br>
+                <a href="http://www.lemondeduparapluie.com/index.cfm" class="btn btn-dark btn-lg">ACHETER UN PARAPLUIE</a>
+-->
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Select Box</label>
-          <select>
-            <option value="husker">Husker</option>
-            <option value="starbuck">Starbuck</option>
-            <option value="hotdog">Hot Dog</option>
-            <option value="apollo">Apollo</option>
-          </select>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 medium-6 columns">
-          <label>Choose Your Favorite</label>
-          <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-          <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-        </div>
-        <div class="large-6 medium-6 columns">
-          <label>Check these out</label>
-          <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-          <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Textarea Label</label>
-          <textarea placeholder="small-12.columns"></textarea>
-        </div>
-      </div>
-    </form>
-  </div>     
+        </header>
+        
 
-  <div class="large-4 medium-4 columns">
-    <h5>Try one of these buttons:</h5>
-    <p><a href="#" class="small button">Simple Button</a><br/>          
-    <a href="#" class="medium success button">Success Btn</a><br/>
-    <a href="#" class="medium alert button">Alert Btn</a><br/>
-    <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-    <div class="callout">
-      <h5>So many components, girl!</h5>
-      <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-      <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-    </div>
-  </div>
-</div>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12  text-center">
+                        <h2>LES MEILLEURS DU MOMENT</h2>
+                        <hr class="small">
+                        <div class="row">
+                            <!-- Liste des parapluies en JSON -->
+                            <div class="row small-up-1 medium-up-2 large-up-3">
+                                {{#each parapluies}}
+                                <div class="columns">
+                                    <div class="callout">
+<!--                                        <span class="label">{{this.support}}</span>-->
+                                        <img src={{this.image}}>
+                                        <p>
+                                            <strong>{{this.name}}</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                        <!-- /.row (nested) -->
+<!--                        <a href="href="http://www.lemondeduparapluie.com/parapluie-tempete-anti-vent,fr,3,36.cfm?gclid=Cj0KEQiA0L_FBRDMmaCTw5nxm-ABEiQABn-VqYp1YqMau_Y9OG9We_UUYtEIVnzf-FQhpMyVuVOo1noaAihj8P8HAQ" class="btn btn-dark"" class="btn btn-dark btn-lg">ACHETER UN PARAPLUIE</a>-->
+                    </div>
+                    <!-- /.col-lg-10 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <section class="chatbot">
+            <h2 class="text-center">Venez discuter dans le chat</h2>
+            <p class="text-center">Venez discuter avec notre chatbot et découvrez si vous avez besoin d'un parapluie dans les prochains jours.<br>On vous recommande les meilleurs parapluies sur le marché.</p>
+            <div class="row">
+               <ul>
+                   <li class="small-2 large-4 columns"><img width="100px" height="auto" src="../assets/img/geolocalisation.png" alt="iphone">Para+ vous aide en fonction de l'endroit où vous êtes</li>
+                   <li class="small-2 large-4 columns"><img width="100px" height="auto" src="../assets/img/weather.png" alt="iphone"></li>
+                   <li class="small-2 large-4 columns"><img width="100px" height="auto" src="../assets/img/iphone.png" alt="iphone"></li>
+               </ul>
+               <div class="row">
+                   <a href="#" class="small-2 large-2 button radius center">Découvrez Messenger</a>
+               </div>
+            </div>
+            
+        </section>
+       
+        <!-- Callout -->
+<!--
+        <aside class="callout">
+            <div class="text-center">
+                <h1>DES PARAPLUIES SUR MESURE</h1>
+            </div>
+        </aside>
+-->
+
+        <!-- Call to Action -->
+<!--
+        <aside class="call-to-action bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <h3>The buttons below are impossible to resist.</h3> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center col-lg-offset-3">
+                        <a href="#" class="btn btn-lg btn-dark"> ME SUIVRE</a>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <input type="text" class="form-control" style="width: 200px; margin-top:15px;">
+                    </div>
+                </div>
+            </div>
+        </aside>
+-->
+
+        <!-- Map -->
+<!--
+        <section id="contact" class="map">
+
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6503827970137!2d3.0518345157380256!3d50.63361127950106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d583ce3649d3%3A0xde5ad0b9a65042ed!2sEFFICOM+Lille!5e0!3m2!1sfr!2sfr!4v1487932155480"></iframe>
+            <br />
+            <small>
+                <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+            </small>
+        </section>
+-->
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+
+                        <!-- Change the width and height values to suit you best -->
+<!--                        <div class="typeform-widget" data-url="https://nantoy.typeform.com/to/nW1ydo" data-text="Contact Form" style="width:100%;height:500px;"></div>
+                        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+                        
+                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by<a href="https://www.typeform.com/examples/?utm_campaign=nW1ydo&amp;utm_source=typeform.com-6827037-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=FR" style="color: #999" target="_blank">Typeform</a></div>
+-->
+
+                        <!-- <h4><strong>Start Bootstrap</strong></h4> -->
+                        <p>Nantoy Alladoum - Nicolas Guillou
+                            <br>MPWD 1
+                            <br> EFFICOM Lille
+                        </p>
+                        <hr class="small">
+                        <p class="text-muted">Copyright &copy; PARA+ 2017</p>
+                    </div>
+                </div>
+            </div>
+            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script>
+            // Closes the sidebar menu
+            $("#menu-close").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+            // Opens the sidebar menu
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+            // Scrolls to the selected menu item on the page
+            $(function() {
+                $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            //#to-top button appears after scrolling
+            var fixed = false;
+            $(document).scroll(function() {
+                if ($(this).scrollTop() > 250) {
+                    if (!fixed) {
+                        fixed = true;
+                        // $('#to-top').css({position:'fixed', display:'block'});
+                        $('#to-top').show("slow", function() {
+                            $('#to-top').css({
+                                position: 'fixed',
+                                display: 'block'
+                            });
+                        });
+                    }
+                } else {
+                    if (fixed) {
+                        fixed = false;
+                        $('#to-top').hide("slow", function() {
+                            $('#to-top').css({
+                                display: 'none'
+                            });
+                        });
+                    }
+                }
+            });
+            // Disable Google Maps scrolling
+            // See http://stackoverflow.com/a/25904582/1607849
+            // Disable scroll zooming and bind back the click event
+            var onMapMouseleaveHandler = function(event) {
+                var that = $(this);
+                that.on('click', onMapClickHandler);
+                that.off('mouseleave', onMapMouseleaveHandler);
+                that.find('iframe').css("pointer-events", "none");
+            }
+            var onMapClickHandler = function(event) {
+                var that = $(this);
+                // Disable the click handler until the user leaves the map area
+                that.off('click', onMapClickHandler);
+                // Enable scrolling zoom
+                that.find('iframe').css("pointer-events", "auto");
+                // Handle the mouse leave event
+                that.on('mouseleave', onMapMouseleaveHandler);
+            }
+            // Enable map zooming with mouse scroll when the user clicks the map
+            $('.map').on('click', onMapClickHandler);
+        </script>
+
+    </body>
+
+</html>

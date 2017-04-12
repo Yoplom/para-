@@ -1,0 +1,38 @@
+li {
+    list-style:none;
+}
+header {
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100%;
+//    background-position: 100% 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+#sidebar-wrapper, ul.menu.align-left {
+    background-color: transparent;
+}
+
+.chatbot {
+    background-color: whitesmoke;
+    
+    h2 {
+        padding: 20px;
+    }
+    
+    ul li {
+        text-align: center;
+    }
+    
+    .row:last-child {
+        text-align: center;
+        
+        a {
+            margin: 50px;
+        }
+    }
+}
+
+footer p {
+    margin-top: 20px;
+}
