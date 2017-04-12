@@ -13,6 +13,13 @@ header {
     background-color: transparent;
 }
 
+.portfolio {
+    margin: 50px 0;
+}
+.chatbot {
+    padding: 50px 0;
+}
+
 .chatbot {
     background-color: whitesmoke;
     
@@ -20,8 +27,16 @@ header {
         padding: 20px;
     }
     
-    .row:first-child {
+    .icones {
+        margin: 75px auto 35px;
         
+        ul li img:before {
+            background-color: #FFF;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 100px;
+        }
     }
     
     ul li {
