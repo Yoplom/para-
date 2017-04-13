@@ -6,8 +6,14 @@ header {
 //    background-size: 100%;
     background-position: 100% 100%;
     min-height: 100vh;
-    object-fit: fill;
+    
+    .logo {
+        max-width: 200px;
+        height: auto;
+        margin-top: 50px;
+    }
 }
+
 
 #sidebar-wrapper, ul.menu.align-left {
     background-color: transparent;
@@ -16,6 +22,10 @@ header {
 .portfolio {
     padding: 50px 0;
     background-color: whitesmoke;
+    
+    .section {
+        max-width: 100% !important;
+    }
     
     .callout {
         box-shadow: 0px 0px 1px 1px #cbcbcb;
@@ -38,6 +48,10 @@ header {
         padding: 20px;
     }
     
+    > p {
+        padding: 0 20px;
+    }
+    
     .icones {
         margin: 75px auto 35px;
         
@@ -52,6 +66,10 @@ header {
     
     ul li {
         text-align: center;
+        
+        > p {
+            margin: 40px 0;
+        }
     }
     
     .row:last-child {
@@ -63,6 +81,20 @@ header {
     }
 }
 
-footer p {
-    margin-top: 20px;
+footer {
+    background-color: #252525;
+    color: #FFF;
+    
+    p {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .columns {
+        width: 50% !important;
+        margin: auto;
+        float: none !important;
+    }
 }
