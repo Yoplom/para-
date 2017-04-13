@@ -13,5 +13,35 @@
         "name": "Parapluie noir",
         "support": "Nintendo 64",
         "image": "../assets/img/noir2.jpg"
+    },
+    {
+        "name": "Parapluie blanc",
+        "support": "POUET",
+        "image": "../assets/img/blanc.jpg"
+    },
+    {
+        "name": "Parapluie rouge",
+        "support": "Super Nes",
+        "image": "../assets/img/rouge.jpg"
+    },
+    {
+        "name": "Parapluie noir",
+        "support": "Nintendo 64",
+        "image": "../assets/img/noir2.jpg"
+    },
+    {
+        "name": "Parapluie blanc",
+        "support": "POUET",
+        "image": "../assets/img/blanc.jpg"
+    },
+    {
+        "name": "Parapluie rouge",
+        "support": "Super Nes",
+        "image": "../assets/img/rouge.jpg"
+    },
+    {
+        "name": "Parapluie noir",
+        "support": "Nintendo 64",
+        "image": "../assets/img/noir2.jpg"
     }
 ]
