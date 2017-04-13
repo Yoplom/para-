@@ -14,14 +14,25 @@ header {
 }
 
 .portfolio {
-    margin: 50px 0;
+    padding: 50px 0;
+    background-color: whitesmoke;
+    
+    .callout {
+        box-shadow: 0px 0px 1px 1px #cbcbcb;
+        transition: box-shadow 0.2s;
+        border: none;
+    }
+    .callout:hover {
+        box-shadow: 0px 0px 10px 1px #cbcbcb;
+        
+    }
 }
 .chatbot {
     padding: 50px 0;
 }
 
 .chatbot {
-    background-color: whitesmoke;
+//    background-color: whitesmoke;
     
     h2 {
         padding: 20px;
