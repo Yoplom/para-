@@ -1,3 +1,12 @@
+.name-box {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+.portfolio .callout {
+    height: 530px;
+}
+
 li {
     list-style:none;
 }
@@ -16,7 +25,7 @@ header {
 .portfolio {
     padding: 50px 0;
     background-color: whitesmoke;
-    
+
     .callout {
         box-shadow: 0px 0px 1px 1px #cbcbcb;
         transition: box-shadow 0.2s;
@@ -24,7 +33,7 @@ header {
     }
     .callout:hover {
         box-shadow: 0px 0px 10px 1px #cbcbcb;
-        
+
     }
 }
 .chatbot {
@@ -33,14 +42,14 @@ header {
 
 .chatbot {
 //    background-color: whitesmoke;
-    
+
     h2 {
         padding: 20px;
     }
-    
+
     .icones {
         margin: 75px auto 35px;
-        
+
         ul li img:before {
             background-color: #FFF;
             width: 100px;
@@ -49,14 +58,14 @@ header {
             left: 100px;
         }
     }
-    
+
     ul li {
         text-align: center;
     }
-    
+
     .row:last-child {
         text-align: center;
-        
+
         a {
             margin: 50px;
         }
