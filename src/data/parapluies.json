@@ -2,55 +2,55 @@
     {
         "name": "Innoo Tech Parapluie de Voyage GARANTIE À VIE- Parapluies pliable Automatique - Parapluie pliant résistant au vent- 'Compact, Léger et à la mode' ( Vin Rouge )",
         "support": "POUET",
-        "image": "../assets/img/para+/51jOgwhVEbL._SL1000_.jpg",
+        "image": "{{root}}assets/img/para+/51jOgwhVEbL._SL1000_.jpg",
         "lien": "http://amzn.to/2oawvwk"
     },
     {
         "name": "Innoo Tech Parapluie de Voyage GARANTIE À VIE- Parapluies pliable Automatique - Parapluie pliant résistant au vent- 'Compact, Léger et à la mode' ( Vin Rouge )",
         "support": "Super Nes",
-        "image": "../assets/img/para+/51Q2KhlB4EL._SL1000_.jpg",
+        "image": "{{root}}assets/img/para+/51Q2KhlB4EL._SL1000_.jpg",
         "lien": "http://amzn.to/2oawIzv"
     },
     {
         "name": "HODGSON Parapluie, Auvent Winproof, Ouverture et Fermeture Automatique Pliage Parapluie Pluie Noir Pour Homme et Femme",
         "support": "Nintendo 64",
-        "image": "../assets/img/para+/51VZhQykc3L._SL1001_.jpg",
+        "image": "{{root}}assets/img/para+/51VZhQykc3L._SL1001_.jpg",
         "lien": "http://amzn.to/2oEAep1"
     },
     {
         "name": "Umenice Parapluie haut de gamme Golf Automatique, 9 baleines, Auvent de couleur noire",
         "support": "POUET",
-        "image": "../assets/img/para+/81l+PoYbxwL._SL1500_.jpg",
+        "image": "{{root}}assets/img/para+/81l+PoYbxwL._SL1500_.jpg",
         "lien": "http://amzn.to/2os2clO"
     },
     {
         "name": "Parapluies Innoo Tech avec protection anti-UV idéal pour les jours ensoleillés ou pluvieux | Parapluie de voyage avec ouverture et fermeture automatique | Parapluie compact pour homme et femme",
         "support": "Super Nes",
-        "image": "../assets/img/para+/61hhO7YFB+L._SL1000_.jpg",
+        "image": "{{root}}assets/img/para+/61hhO7YFB+L._SL1000_.jpg",
         "lien": "http://amzn.to/2peHPID"
     },
     {
         "name": "Giwox Parapluie Inversé--Style Long,Ouverture&Fermeture à Envers,Double-Toile Bicolore,Poignée Courbé de Caoutchouc,8 Baleines en Fibre de Verre Inoxydable--124cm Gros Diamètre,Anti-vent/neige(manuel) (rouge+noir)",
         "support": "Nintendo 64",
-        "image": "../assets/img/para+/61KV+taD-tL._SL1001_.jpg",
+        "image": "{{root}}assets/img/para+/61KV+taD-tL._SL1001_.jpg",
         "lien": "http://amzn.to/2pbZELx"
     },
     {
         "name": "Innoo Tech Parapluie pliant résistant au vent testé à 55 km/h- Parapluies de voyage 'Incassable' Ouverture et fermeture automatique. Parapluie pliable bénéficiant d'une longue garantie",
         "support": "POUET",
-        "image": "../assets/img/para+/61w7R7Qs+RL._SL1000_.jpg",
+        "image": "{{root}}assets/img/para+/61w7R7Qs+RL._SL1000_.jpg",
         "lien": "http://amzn.to/2os1Yv0"
     },
     {
         "name": "[Parapluie]Plemo Parapluie Canne avec 24 Baleines Incassable Anti Vent Anti Retournement Manche en Bois Anti-Glisse Tissu 210T Léger Noir",
         "support": "Super Nes",
-        "image": "../assets/img/para+/61LbaPcVM3L._SL1122_.jpg",
+        "image": "{{root}}assets/img/para+/61LbaPcVM3L._SL1122_.jpg",
         "lien": "http://amzn.to/2ocYHxV"
     },
     {
         "name": "PLEMO Parapluie pliable noir de voyage Automatique Gouttes de Pluie",
         "support": "Nintendo 64",
-        "image": "../assets/img/para+/71LFVCAIsEL._SL1050_.jpg",
+        "image": "{{root}}assets/img/para+/71LFVCAIsEL._SL1050_.jpg",
         "lien": "http://amzn.to/2os4eSY"
     }
 ]
